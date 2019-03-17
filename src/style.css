@@ -1,0 +1,103 @@
+.header{
+
+    background-color: #56A319;
+    color:white;
+    padding:10px 10px 10px 50px;
+    box-shadow: 5px 5px 5px #D8D8D8;
+}
+.container{
+    padding:50px;
+}
+
+/*Search Bar*/
+
+.search h4 {
+    font-size: 15px;
+    padding:0;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+.search {   
+    margin-bottom:70px;
+    width:40%;
+
+}
+.search input {
+    font-size:26;
+    display:block;
+    width:100%;
+    background-color: #EEF3EE;
+}
+.form-control {
+    width:40%;
+    border-color:#8cb669
+}
+.fa.fa-times{
+    position:relative;
+    display:inline-block;
+    top:-29px;
+    float:right;
+    left:-15px;
+}
+
+/*List*/
+
+.List table {
+    display: block;
+    width:100%;
+}
+.List table tbody{
+    width:100%;
+}
+.List table td{
+    padding: 10px 100px 10px 5px;
+    width:25%;
+    margin:0;
+}
+.List .header_tr td{
+    color:#bbbbbb;
+    font: size 5;
+    padding-top:15px;
+    padding-bottom:10px;
+    width: 30%;
+}
+.List .header_tr td p{
+    padding:0;
+    margin:0;
+}
+.List table tr:nth-child(2n+0){
+    background-color:#fafafa;
+}
+.List table tr{
+    border-bottom:1px solid #efefef;
+}
+.header_tr .List  p{
+    color:#bbbbbb;
+    font-size:14px;
+    margin-right:70px;
+}
+/*Cancell*/
+.Cancel td{
+    color:#bbbbbb;
+    padding: 5px 100px 5px 5px !important;
+}
+.Cancel td p{
+    
+    color:red;
+    font-weight: 500;
+    margin-bottom:0px;
+}
+
+.nav-link {
+    color:#8cb669;
+}
+.estimatedTime{
+color:red;
+font-weight: 600;
+}
+tr .estimatedtd-cell{
+    padding:5px 5px 5px 5px !important;
+}
+.Time{
+    font-size: 0.8em;
+}
